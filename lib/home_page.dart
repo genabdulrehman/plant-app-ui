@@ -98,6 +98,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       _animationController2.forward();
     });
     _animationController3 = AnimationController(
+        //
         vsync: this,
         duration: Duration(milliseconds: 1500),
         animationBehavior: AnimationBehavior.preserve)
